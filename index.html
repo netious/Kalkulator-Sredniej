@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Średniej</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kontener">
+    <h1>Kalkulator Średniej by janek</h1>
+    <div class="formularz-ocen">
+      <input type="text" id="wejscieOceny" placeholder="Wpisz ocenę np. 3+, 4-">
+      <button onclick="dodajOcene()">Dodaj</button>
+      <button onclick="wyczyscOceny()">Wyczyść</button>
+    </div>
+    <div class="wyniki">
+      <p id="listaOcen">Oceny: Brak</p>
+      <p id="wynikSredniej">Średnia: 0</p>
+    </div>
+  </div>
+
+  <script src="dowalonySkrypt.js"></script>
+</body>
+</html>
